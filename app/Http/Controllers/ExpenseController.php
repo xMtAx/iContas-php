@@ -132,7 +132,7 @@ class ExpenseController extends Controller
 
         $expense->update(['paid' => 1]);
 
-        return redirect('/dashboard')->with('success', 'Despesa paga com sucesso');
+        return redirect('/dashboard')->with('success', 'Removido pagamento da despesa com sucesso');
     }
 
     /**
