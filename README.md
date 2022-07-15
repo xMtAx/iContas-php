@@ -1,4 +1,5 @@
-# iContas Laravel
+<p align="center"><img src="https://i.imgur.com/KQkLiAT.png" width="50"></p>
+<h1 align="center">iConta$ Laravel</h1>
 
 ## Versões
 
