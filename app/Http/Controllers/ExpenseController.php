@@ -130,7 +130,7 @@ class ExpenseController extends Controller
             abort(404);
         }
 
-        $expense->update(['paid' => 1]);
+        $expense->update(['paid' => 0]);
 
         return redirect('/dashboard')->with('success', 'Removido pagamento da despesa com sucesso');
     }
